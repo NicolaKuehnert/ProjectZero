@@ -6,7 +6,7 @@
 Community-Plattform für Computerspiele
 
 #### Navigationsleiste
-Die Navigationsleiste ist allen anderen Funktionen übergeordnet, wird oben auf jeder Seite angezeigt. Sie wird also über jedem Objekt dargestellt.
+Die Navigationsleiste ist allen anderen Funktionen übergeordnet und wird oben auf jeder Seite angezeigt. Sie wird also über jedem Objekt dargestellt.
 Sie beinhaltet die wichtigsten Verweise. Ein Verweis auf die Registrierung, Anmeldung oder Abmeldung.
 Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Logo der Plattform (Verweis auf die Startseite)
@@ -55,7 +55,7 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
 Diese können dann aus der Spielebibliothek gestartet werden.
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung,
-eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen müssen.
+eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen.
 #### Mockups Spielebibliothek
 <img src="./images/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Library_Desktop.png" id="img_library_desk" width="400">
 
@@ -79,7 +79,7 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
 
 ### Bewertungsfunktion
-Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel, die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man das Spiel positiv, mit einem Daumen nach unten negativ.
+Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man die Bewertung positiv, mit einem Daumen nach unten negativ.
 
 #### Mockups Bewertungsfunktion
 <img src="./images/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Review_Mobile.png" id="img_review_mobil" width="230">
@@ -104,7 +104,7 @@ Jeder angemeldete Benutzer kann eine Gruppe erstellen. Gruppen dienen zur Organi
 Stellt man die Gruppe auf "Privat" können nur Mitglieder beitreten, die von einem berechtigten Mitglied der Gruppe eingeladen werden.
 Der Admin kann an die Mitglieder Rollen verteilen, die jeweils verschiedene Rechte haben. Mit diesen Rechten kann man Mitglieder einladen bzw. rauswerfen, die Beschreibung der Gruppe ändern oder Foren erstellen und bearbeiten.
 Den Mitgliedern einer Gruppe ist es möglich sich in einem Forum zu organisieren.
-In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Ein Obertab kann nur von einem Mitglied erstellt werden, der Forumrechte hat. Mitglieder ohne diese Rechte können nur in den Oberthemen Unterthemen erstellen.
+In diesem Forum können verschiedene Obertabs erstellt werden und in diesen Beiträge verfasst werden. Ein Obertab kann nur von einem Mitglied erstellt werden, der Forumrechte hat. Mitglieder ohne diese Rechte können nur in den Obertabs Unterthemen erstellen.
 Beiträge können als gelesen und ungelesen markiert werden. Ein Beitrag ist ungelesen, wenn er neu erstellt wurde oder ein oder mehrere neue Kommentare hinzugefügt wurden. Der Benutzer kann sie über eine Schaltfläche als gelesen markieren oder den Beitrag öffnen, damit er als ungelesen markiert wird.  
 Bei jedem Beitrag gibt es eine Kommentarfunktion, wo sich die Mitglieder zu dem Thema austauschen können.
 Außerdem können Gruppen Termine zu verschiedenen Anlässe erstellen im Terminplaner.
@@ -120,14 +120,6 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 <img src="./images/Groups_Members_MemberView_Desktop.png" id="img_group_members_desk" width="280"><img src="./images/Groups_Members_MemberView_Web.png" id="img_group_members_web" width="275"><img src="./images/Groups_Members_MemberView_Mobile.png" id="img_group_members_mobil" width="100">
 #### Mockups Gruppenmitglieder (Adminsicht)
 <img src="./images/Groups_Members_AdminView_Desktop.png" id="img_group_admin_desk" width="280"><img src="./images/Groups_Members_AdminView_Web.png" id="img_group_admin_web" width="265"><img src="./images/Groups_Members_AdminView_Mobile.png" id="img_group_admin_mobil" width="120">
-
-#### Gruppenrollen
-| Name        | Vergabe                            | Rechte                                   |
-| :---------- | :--------------------------------- | :--------------------------------------- |
-| Ersteller   | Beim Erstellen der Gruppe          | Alle                                     |
-| Admin       | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
-| Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
-| Mitglied    | Beim Beitritt in die Gruppe        | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
 
 #### User-Stories
 
@@ -177,10 +169,10 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 | Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
 
 ### Chaträume
-Es wird zwischen Privatchat-, Gruppenchat- und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
-Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen. Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Benutzer können Stumm geschaltet werden.
+Es wird zwischen privaten, Gruppen und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
+Man kann Privatchats über einen Doppelklick auf den jeweiligen Kontakt öffnen. Öffentliche Chaträume können erstellt und mit Passwörtern versehen werden. Jeder öffentlicher Chatraum muss einen einzigartigen Namen haben. Es steht eine Liste mit aktiven in den Chat beigetretenen Benutzern zur Verfügung. Über diese Liste können Benutzer zu den Kontakten hinzugefügt werden. Chaträume können Stumm geschaltet werden, sodass man über keine neuen Nachrichten informiert wird. Wenn man von einem Benutzer gar keine Nachrichten mehr erhalten möchte, kann man ihn blockieren.
 Über die Gruppenliste kommt man per Doppelklick in den Gruppenchat. Rechts des Gruppenchats wird eine Liste mit den Mitgliedern angezeigt.
-Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeiter hat, kann man sich eine Farbe auswählen. Mit dieser Farbe wird der vom Benutzer geschriebene Text hinterlegt. Jede Farbe kann dabei nur von einem Benutzer verwendet werden um Verwechslungen zu vermeiden.
+Benutzernamen werden im Chat farblich angezeigt, um eine bessere Übersicht zu bekommen.
 #### Mockups Übersicht Chaträume
 <img src="./images/Chaträume_Desktop.png" id="img_chat_desk" width="280"><img src="./images/Chaträume_Browser.png" id="img_chat_web" width="270"><img src="./images/Chaträume_Mobile.png" id="img_chat_mobil" width="150">
 #### Mockups öffentliche & Gruppen-Chaträume
@@ -211,7 +203,7 @@ Um eine bessere Übersicht in den Notizen zu haben, falls man mehrere Mitarbeite
 <br>
 
 ### Freundesliste
-Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Chatraum bzw. Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
+Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freunde des jeweiligen Benutzers aufgelistet und in dem "Gruppen" Tab die Gruppen. Es können Freunde hinzufügt und gelöscht werden. Diese Freunde werden dann mit einem Status angezeigt. Der Status kann zwischen Online, Offline, Beschäftigt und Abwesend, die jeweils mit einer Farbe makiert sind, variieren. Außerdem bekommt man angezeigt, in welchem Spiel sie sich gerade befinden. Es sind ebenfalls Funktionen zum Öffnen eines Privatchats, Löschen des Freundes, Hinzufügen des Freundes und zum Wechseln des Status vorhanden. Das Anzeigen des derzeitigen Spiels/Chatraums erfolgt automatisch. Es können Gruppen erstellt und von dem jeweiligen Gruppenadmin gelöscht werden. Man kann Gruppe beitreten und sie verlassen. Andere Kontakte können in Gruppen eingeladen werden.
 
 #### Mockups Freundesliste
 <img src="./images/Freundesliste_Desktop.png" id="img_friends_desk" width="200"><img src="./images/Freundesliste_Browser.png" id="img_friends_web" width="360"><img src="./images/Freundesliste_Mobile.png" id="img_friends_mobil" width="160">
@@ -245,7 +237,7 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 
 #### Beschreibung
 
-Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und auch wieder zu bearbeiten. Das bearbeiten geschieht durch drücken des Sclüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an  dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig.
+Im Terminplaner ist es für den Benutzer möglich, seine Termine einzutragen und auch wieder zu bearbeiten. Das Bearbeiten geschieht durch drücken des Schlüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin Ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig.
 
 #### Mockups Webansicht
 <img src="./images/Terminplaner Web.png" id="img_cal_web" width="450"><img src="./images/Terminplaner hinzufügen Web.png" id="img_cal_add_web" width="450">
@@ -274,8 +266,7 @@ Im Terminplaner soll es für den Benutzer möglich seine Termine einzutragen und
 <img src="./images/Aktivitätsdiagramme/terminErstellen.png" width="800">
 
 ### Notizen
-Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er außerdem mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller, kann aber auch festlegen, wer diese Notiz bearbeiten darf. Die Notizen können dann auch den Benutzer oder die Benutzergruppe über festgelegte Zeit benachrichtigen.<br>
-Zur besseren Übersicht der Notiz werden die Beiträge eines Mitgliedes in einer Farbe hinterlegt, welche man über eine Farbauswahl auswählen kann. Jede Farbe kann nur von einem Mitglied benutzt werden um Verwechslung zu vermeiden.
+Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er mit anderen Benutzern oder Gruppen teilen. Die Notizen können dadurch angeguckt oder von anderen bearbeitet werden. Der Notizenersteller kann aber auch festlegen, wer diese Notiz bearbeiten darf.
 
 #### Mockups Notizen
 <img src="./images/Notizen_Web.png" id="img_notes_web" width="280"> <img src="./images/Notizen_Desktop.png" id="img_notes_desk" width="280"> <img src="./images/Notizen_Mobile.png" id="img_notes_mobil" width="200">
