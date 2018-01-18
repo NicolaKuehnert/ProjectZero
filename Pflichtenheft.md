@@ -1,4 +1,4 @@
-﻿## Pflichtenheft
+## Pflichtenheft
 
 
 ### Allgemeine Beschreibung des Projekts
@@ -15,20 +15,20 @@ Ihr Inhalt der Navigationsleiste lautet wie folgt:
 * Gruppen/Freunde (Community)
 * Registrierung und Anmeldung oder Abmeldung
 #### Mockups Navigationsleiste
-<img src="./images/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Navigation_Mobile.png" id="img_nav_mobil" width="400">
+<img src="./images/Mockups/Navigation.png" id="img_nav_webdesk" width="400"><img src="./images/Mockups/Navigation_Mobile.png" id="img_nav_mobil" width="400">
 
 ### Registrierung
 Jede Person kann sich registrieren, egal ob über die Web-Anwendung, Desktop-Anwendung oder Mobile-Anwendung.
 Für die Registration muss man einen noch nicht vergebenen Benutzernamen, eine noch nicht verwendete E-Mail und ein Passwort angeben.
 Das Passwort muss wiederholt werden um Schreibfehler vorzubeugen.
 #### Mockups Registrierung
-<img src="./images/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Registration_Mobile.png" id="img_reg_mobil" width="130">
+<img src="./images/Mockups/Registration_Web.png" id="img_reg_web" width="340"> <img src="./images/Mockups/Registration_Desktop.png" id="img_reg_desk" width="260"> <img src="./images/Mockups/Registration_Mobile.png" id="img_reg_mobil" width="130">
 
 ### Anmeldung
 Jede Person die sich erfolgreich registriert hat, kann sich anmelden.
 Um sich anzumelden, muss eine korrekte Eingabe von Benutzername und Passwort getätigt werden.
 #### Mockups  Anmeldung
-<img src="./images/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Login_Mobile.png" id="img_login_mobil" width="110">
+<img src="./images/Mockups/Login_Web.png" id="img_login_web" width="300"> <img src="./images/Mockups/Login_Desktop.png" id="img_login_desk" width="350"> <img src="./images/Mockups/Login_Mobile.png" id="img_login_mobil" width="110">
 
 #### User-Story: Registrierung und Anmeldung
 In einer Internet-Vertriebsplattform für Computerspiele möchte ich mich möglichst unkompliziert mit meinem
@@ -48,8 +48,8 @@ Beim Anlegen neuer Nutzer muss ein Benutzername, eine Email und ein Passwort ang
 <img src="./images/Registrierung und Anmeldung - Usecase.png" width="1000">
 
 #### Aktivitätsdiagramme Registrierung und Anmeldung
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaReg.png" width="400">
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaAnm.png" width="400">
+<img src="./images/Aktivitätsdiagramme/anmeldung.png" width="400">
+<img src="./images/Aktivitätsdiagramme/registrierung.png" width="400">
 
 ### Spielebibliothek
 In der Spielebibliothek werden alle verfügbaren (gekauften) Spiele angezeigt.
@@ -57,7 +57,7 @@ Diese können dann aus der Spielebibliothek gestartet werden.
 Spiele können über ein Menü der Bibliothek hinzugefügt werden. Für jedes Spiel wird eine Beschreibung,
 eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen und somit auch besitzen.
 #### Mockups Spielebibliothek
-<img src="./images/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Library_Desktop.png" id="img_library_desk" width="400">
+<img src="./images/Mockups/Library_Web2.png" id="img_library_web" width="360"> <img src="./images/Mockups/Library_Desktop.png" id="img_library_desk" width="400">
 
 #### User-Stories
 
@@ -76,13 +76,13 @@ eine Bewertung und die Benutzer angezeigt, welche im Moment dieses Spiel spielen
 <br>
 
 #### Aktivitätsdiagramm Spiel anzeigen
-<img src="./images/Aktivitätsdiagramme/AktivitätsDiaSpiel.png" width="400">
+<img src="./images/Aktivitätsdiagramme/spielanschauen.png" width="400">
 
 ### Bewertungsfunktion
 Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezeigt. Jeder Benutzer kann sie individuell ausfüllen, falls er das dazugehörige Spiel besitzt. Allerdings kann jedes Spiel nur einmal pro Benutzer bewertet werden. Jeder Benutzer kann zu seiner Bewertung von einem bis zu fünf Sternen einen kleinen Text verfassen, indem er seine Meinung zum entsprechenden Spiel schreibt. Andere Benutzer sehen bei jedem Spiel die Bewertungen jener Benutzer, die das Spiel bewertet haben und können diese Bewertungen mit einem Daumen hoch oder runter ebenfalls bewerten.  Mit einem Daumen nach oben bewertet man die Bewertung positiv, mit einem Daumen nach unten negativ.
 
 #### Mockups Bewertungsfunktion
-<img src="./images/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Review_Mobile.png" id="img_review_mobil" width="230">
+<img src="./images/Mockups/Review_Web.png" id="img_review_web" width="300"> <img src="./images/Mockups/Review_Desktop.png" id="img_review_desk" width="336"> <img src="./images/Mockups/Review_Mobile.png" id="img_review_mobil" width="230">
 
 #### User-Stories
 
@@ -96,7 +96,12 @@ Die Bewertungsfunktion (Verweis / Bewertungssterne) wird bei jedem Spiel angezei
 
 #### Use-Case-Diagramm
 <br>
-<img src="./images/UseCase_Bewertungsfunktion.png" width="1000">
+<img src="./images/UseCase/UseCase_Bewertungsfunktion.png" width="1000">
+<br>
+
+#### Aktivitätsdiagramme
+<br>
+<img src="./images/Aktivitätsdiagramme/Activity_Diagramm_Bewertungsfunktion.png" width="1000">
 <br>
 
 ### Gruppen
@@ -144,29 +149,6 @@ Auf der Mobilenansicht wird in der Mitgliederliste der aktuelle Status der Mitgl
 
 #### Aktivitätsdiagramme
 <img src="./images/Aktivitätsdiagramme/akt_grp_admin.png" width="400"><img src="./images/Aktivitätsdiagramme/akt_grp_einladung.png" width="217"><img src="./images/Aktivitätsdiagramme/akt_grp_erstellen.png" width="231">
-
-### Gruppenrollen
-| Name        | Vergabe                            | Rechte                                   |
-| :---------- | :--------------------------------- | :--------------------------------------- |
-| Ersteller   | Beim Erstellen der Gruppe          | Alle                                     |
-| Admin       | Vergabe durch Admin oder Ersteller | Rechte des Foren-Admins + Einladen, Ausladen von Mitgliedern, Ernennung von anderen Admins |
-| Foren-Admin | Vergabe durch Admin oder Ersteller | Rechte eines Mitglieds + Bearbeitung des Forums |
-| Mitglied    | Beim Beitritt in die Gruppe        | Schreiben von Beiträgen, Erstellen von Terminen, Erstellen von Notizen |
-
-#### User-Stories
-
-| Rolle                                   | In meiner Rolle möchte ich               | so dass                                  | Akzeptanz                                | Priorität |
-| --------------------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- | --------- |
-| Als Benutzer                            | Gruppen erstellen                        | ich Freunde zur Gruppe hinzufügen kann   | Erzeugung der Gruppe                     | MUSS      |
-| Als Benutzer                            | öffentlichen Gruppen beitreten oder Gruppeneinladungen Akzeptieren | ich mit der Gruppe Kommunizieren und an Terminen teilnehmen kann | Man sieht sich selbst in und die Inhalte der Gruppe | MUSS      |
-| Als Benutzer                            | Chats der Gruppe beitreten               | ich mit anderen Gruppenmitgliedern reden kann | Aktiver Chat mit Gruppenmitgliedern      | MUSS      |
-| Als Gruppenadmin                        | die Sichtbarkeit der Gruppe ändern       | sie Öffentlich oder Privat ist           |                                          | SOLL      |
-| Als Gruppenadmin                        | Rollen erstellen und diese verteilen können | ausgewählte Gruppenmitglieder besondere Rechte haben |                                          | SOLL      |
-| Als Gruppenadmin/Benutzer mit der Rolle | Obertabs in den Foren erstellen          | Diskussionen im Forum geordneter sind    | sichtbare Oberthemen im Forum            | SOLL      |
-| Als Gruppenmitglied                     | Unterthemen im Forum erstellen           | Diskussionen angeregt werden             | sichtbare Unterthemen im Forum           | SOLL      |
-| Als Gruppenmitglied                     | meine Unterthemen als gelesen und ungelesen markieren | erkannt wird, ob alles gelesen wurde oder nicht | Themen sind markiert als gelesen oder ungelesen | KANN      |
-| Als Gruppenmitglied                     | meine Kommentare and Unterthemen senden  | jeder meine Meinung zum Thema sehen kann | Kommentar wird im Unterthema angezeigt   | SOLL      |
-| Als Mobilnutzer                         | die Aktivität anderer Gruppenmitglieder sehen | ich weiß ob sie gerade anwesend sind oder nicht | Benutzer sind in der Mitgliederliste mit Punkten markiert | KANN      |
 
 ### Chaträume
 Es wird zwischen privaten, Gruppen und öffentlichen Chaträumen unterschieden. In den Chaträumen stehen Emojis zur Verfügung. Hyperlinks müssen anklickbar sein. Beim Senden einer Textnachricht wird zuerst der Benutzername und dann die Textnachricht, getrennt mit einem ":", angezeigt.
@@ -240,11 +222,11 @@ Es gibt die Tabs "Freunde" und "Gruppen". In dem Tab "Freunde" werden die Freund
 Im Terminplaner ist es für den Benutzer möglich, seine Termine einzutragen und auch wieder zu bearbeiten. Das Bearbeiten geschieht durch drücken des Schlüssel Symbols neben dem Termin. Diese Termine können für den Benutzer selber sein oder auch für eine ganze Gruppe in der Anwendung. Wenn der Benutzer sich dafür entscheidet ein Termin für eine Gruppe zu planen, können andere für den Termin abstimmen und somit zeigen, dass sie an dem Tag Zeit haben oder für den Termin absagen. Außerdem wird ein Gruppenmitglied zeitnah benachrichtigt, wenn eine Veranstaltung ansteht. Zur Übersicht werden die Termine in einem Kalender dargestellt, indem man auch an einem bestimmten Tag ein Termin eintragen kann. Neben dem ausgewählten Datum wird angezeigt welche Termine für dieses Datum anstehen. Tage an denen es Termine gibt, werden markiert. Beim hinzufügen, kann man den Terminnamen, die Terminbeschreibung und die Beschränkungen festlegen. Der Termin Ersteller kann Leute zuweisen, welche diesen Termin sehen und eventuell auch bei dem Termin beteiligt sind. Die Teilnehmer werden in einer Liste angzeigt und können dort auch hinzugefügt werden. Dann werden sie in der Liste als hinzugefügt markiert und können auch wieder aus dem Termin entfernt werden, wenn nötig.
 
 #### Mockups Webansicht
-<img src="./images/Terminplaner Web.png" id="img_cal_web" width="450"><img src="./images/Terminplaner hinzufügen Web.png" id="img_cal_add_web" width="450">
+<img src="./images/Mockups/Terminplaner Web.png" id="img_cal_web" width="450"><img src="./images/Mockups/Terminplaner hinzufügen Web.png" id="img_cal_add_web" width="450">
 #### Mockups Desktopansicht
-<img src="./images/Terminplaner Desktop.png" id="img_cal_desk" width="550"><img src="./images/Terminplaner hinzufügen Desktop.png" id="img_cal_add_desk" width="330">
+<img src="./images/Mockups/Terminplaner Desktop.png" id="img_cal_desk" width="550"><img src="./images/Mockups/Terminplaner hinzufügen Desktop.png" id="img_cal_add_desk" width="330">
 #### Mockups Mobilansicht
-<img src="./images/Terminplaner Mobil.png" id="img_cal_mobil" width="550"><img src="./images/Terminplaner hinzufügen Mobil.png" id="img_cal_add_mobil" width="330">
+<img src="./images/Mockups/Terminplaner Mobil.png" id="img_cal_mobil" width="550"><img src="./images/Mockups/Terminplaner hinzufügen Mobil.png" id="img_cal_add_mobil" width="330">
 
 #### User-Stories
 
@@ -314,7 +296,7 @@ Dem Benutzer ist es möglich Notizen anzulegen. Diese kann er mit anderen Benutz
 
 
 #### Desktop-Client für Windows
-**Desktopanwendung geschrieben in C#**
+**Desktopanwendung geschrieben in Java, GUI-Gestaltung mit JavaFX mit Hilfe von Scenebuilder**
 
 ### Backend
 
@@ -354,11 +336,21 @@ Die Datenbank kann auch in Laravel aufgebaut werden. Dafür können Migrations v
 #### Systemarchitekturdiagramm
 <img src="./images/architektur.png" id="img_sysarch" width="600">
 
-#### Klassenanalysediagramm
+#### Analyseklassendiagramm
 <img src="./images/Klassendiagramm_PowerDesigner.png" id="img_classanalysis" width="600">
 
 #### Routing
-[Routing Liste](Resources/RoutingList.pdf)
+[Generated API Reference](https://pr0jectzer0.ml/docs/)
+
+### Aktivitätsdiagramm aller Use Cases
+
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm alle Use cases.png" width="1200">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Chatraumaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Freundeslisteaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Gruppenaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Notizaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Spielebibliothekaktivität.png" width="600">
+<img src="./images/Aktivitätsdiagramme/Aktivitätsdiagramm Terminplaneraktivität.png" width="600">
 
 ### Optionale Features
 * Forum
